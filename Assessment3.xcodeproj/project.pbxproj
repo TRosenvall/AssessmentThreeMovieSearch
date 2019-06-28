@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85D7E5E022C672780070FA3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5DF22C672780070FA3C /* Movie.swift */; };
 		85E9BA0D22C6639E00ACC81C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E9BA0C22C6639E00ACC81C /* AppDelegate.swift */; };
 		85E9BA1222C6639E00ACC81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E9BA1022C6639E00ACC81C /* Main.storyboard */; };
 		85E9BA1422C6639F00ACC81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E9BA1322C6639F00ACC81C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85D7E5DF22C672780070FA3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		85E9BA0922C6639E00ACC81C /* Assessment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E9BA0C22C6639E00ACC81C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E9BA1122C6639E00ACC81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		85D7E5DC22C664A90070FA3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85D7E5DF22C672780070FA3C /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D7E5E022C672780070FA3C /* Movie.swift in Sources */,
 				85E9BA0D22C6639E00ACC81C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
