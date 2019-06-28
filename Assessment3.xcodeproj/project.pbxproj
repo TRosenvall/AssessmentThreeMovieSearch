@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85D7E5E022C672780070FA3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5DF22C672780070FA3C /* Movie.swift */; };
+		85D7E5E222C675C90070FA3C /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5E122C675C90070FA3C /* MovieController.swift */; };
+		85D7E5E422C67B190070FA3C /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5E322C67B190070FA3C /* SearchResults.swift */; };
+		85D7E5E622C682C80070FA3C /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5E522C682C80070FA3C /* SearchResultTableViewController.swift */; };
+		85D7E5E822C688DC0070FA3C /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7E5E722C688DC0070FA3C /* SearchResultTableViewCell.swift */; };
 		85E9BA0D22C6639E00ACC81C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E9BA0C22C6639E00ACC81C /* AppDelegate.swift */; };
 		85E9BA1222C6639E00ACC81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E9BA1022C6639E00ACC81C /* Main.storyboard */; };
 		85E9BA1422C6639F00ACC81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E9BA1322C6639F00ACC81C /* Assets.xcassets */; };
@@ -15,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85D7E5DF22C672780070FA3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		85D7E5E122C675C90070FA3C /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		85D7E5E322C67B190070FA3C /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		85D7E5E522C682C80070FA3C /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		85D7E5E722C688DC0070FA3C /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
 		85E9BA0922C6639E00ACC81C /* Assessment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E9BA0C22C6639E00ACC81C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E9BA1122C6639E00ACC81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,7 +72,7 @@
 		85D7E5DC22C664A90070FA3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				85D7E5DF22C672780070FA3C /* Movie.swift */,
+				85D7E5E322C67B190070FA3C /* SearchResults.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -74,6 +80,7 @@
 		85D7E5DD22C664AE0070FA3C /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				85D7E5E122C675C90070FA3C /* MovieController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -81,6 +88,8 @@
 		85D7E5DE22C664B80070FA3C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				85D7E5E522C682C80070FA3C /* SearchResultTableViewController.swift */,
+				85D7E5E722C688DC0070FA3C /* SearchResultTableViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D7E5E022C672780070FA3C /* Movie.swift in Sources */,
+				85D7E5E222C675C90070FA3C /* MovieController.swift in Sources */,
+				85D7E5E822C688DC0070FA3C /* SearchResultTableViewCell.swift in Sources */,
+				85D7E5E422C67B190070FA3C /* SearchResults.swift in Sources */,
 				85E9BA0D22C6639E00ACC81C /* AppDelegate.swift in Sources */,
+				85D7E5E622C682C80070FA3C /* SearchResultTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
